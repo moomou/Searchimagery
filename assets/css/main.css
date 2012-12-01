@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.blkCenter {
+ 	margin-left: auto;
+    margin-right: auto;
+}
+.break {
+    visibility: hidden;
+    height: 5em;
+}
+.break1 {
+    visibility: hidden;
+    height: 1em;
+}
+.break2 {
+    visibility: hidden;
+    height: 2em;
+}
+.break3 {
+    visibility: hidden;
+    height: 3em;
+}
+.innerText {
+    width: inherit;
+}
+
+.rating li {
+    float: left;
+}
+
+.powerBtn li {
+    padding-left: 1em;
+}
+
+#powerBar {
+    position: relative;
+    top: -1.5em;
+    }
+
+#mainCanvas  {
+	margin: -4em 2em;
+    padding-bottom: 2em;
+}
+
+/*Scrollbar override*/
+::-webkit-scrollbar {
+}
+ 
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);*/
+}
+ 
+::-webkit-scrollbar-thumb {
+	/*-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);*/
+}
